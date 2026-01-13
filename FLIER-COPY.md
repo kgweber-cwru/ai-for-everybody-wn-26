@@ -26,24 +26,28 @@ A 6-week hands-on workshop series to effectively use ChatGPT, Claude, and other 
 • Test multiple models hands-on
 
 **Week 3: Writing Better Prompts**
-• Master the 4 principles of effective prompting
-• Learn patterns that get better results
+• Master the 5 pillars of effective prompting for 2026
+• Learn how to direct reasoning models (GPT-5) vs. prediction models (GPT-4o)
+• Handle massive context windows (1M+ tokens)
 • Build your personal prompt library
 
-**Week 4: Using AI Responsibly**
-• Identify hallucinations and verify information
-• Understand ethical considerations and bias
-• Protect privacy and confidential data
+**Week 4: Using AI Responsibly & Verification**
+• Identify factual and logical hallucinations
+• Use Chain-of-Verification (CoVe) for critical accuracy
+• Perform red-team auditing of AI recommendations
+• Understand ethics, bias, and privacy in AI use
 
 **Week 5: Advanced AI Tools**
-• Use NotebookLM to analyze your documents
-• Create Custom GPTs for repeated tasks
+• Use NotebookLM to analyze your documents without hallucinations
+• Create Custom GPTs for repeated workflows
+• Build grounded knowledge agents with RAG (Retrieval-Augmented Generation)
 • Go beyond basic chat interfaces
 
 **Week 6: Building Your AI Workflow**
-• Use Scite for research and citations
-• Integrate AI tools into your daily work
-• Design sustainable workflows
+• Use Scite for research verification and citation checking
+• Orchestrate multi-tool workflows for maximum reliability
+• Integrate Weeks 1-5 concepts into professional systems
+• Design sustainable, verifiable AI processes
 
 ---
 

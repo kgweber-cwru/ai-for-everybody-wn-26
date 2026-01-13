@@ -36,19 +36,19 @@ By the end of this series, participants will be able to:
 **Assignment:** Build personal prompt library
 
 ### Week 4: Advanced Prompting and Responsible Use
-**Topics:** Chain-of-thought, hallucinations, ethics, bias, privacy
-**Hands-On:** Verification strategies, bias detection
-**Assignment:** Responsible use case analysis
+**Topics:** Chain-of-thought reasoning, hallucinations, red-team auditing, ethics, bias, privacy
+**Hands-On:** Verification strategies (CoVe pattern), bias detection, red-team auditing
+**Assignment:** Logic audit using 3-step verification pipeline
 
 ### Week 5: Beyond Chat - NotebookLM and Custom GPTs
-**Topics:** NotebookLM for documents, Custom GPTs for workflows
-**Hands-On:** Create notebook and design Custom GPT
-**Assignment:** Create specialized tool
+**Topics:** Grounded AI, reducing hallucinations, RAG (Retrieval-Augmented Generation), building knowledge agents
+**Hands-On:** Create NotebookLM for document analysis, design Custom GPT system instructions
+**Assignment:** Create personalized knowledge agent for weekly task
 
-### Week 6: Scite and Building Your AI Workflow
-**Topics:** Scite for research, workflow integration, synthesis
-**Hands-On:** Explore Scite, share workflows
-**Assignment:** AI implementation plan
+### Week 6: Orchestration & Building Your AI Workflow
+**Topics:** Multi-tool workflows, Scite for research verification, agentic AI in healthcare, workflow integration
+**Hands-On:** Explore Scite, design complete workflow pipeline, integrate weeks 1-5 concepts
+**Assignment:** Create personal AI workflow map for recurring task
 
 ---
 

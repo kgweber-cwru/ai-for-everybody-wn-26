@@ -48,24 +48,24 @@ What did you discover in your model comparisons?
 - Hands-on comparative testing
 
 ---
-### Slide 4: The Main Players (Updated Landscape)
-**OpenAI - The GPT-5 & O-Series**
+### Slide 4: The Main Players (2026 Landscape)
+**OpenAI - The GPT-5 & GPT-4 Series**
 
-- GPT-5: The flagship general-purpose agent. Unifies high-speed interaction with deep reasoning.
-- GPT-4.1: The "High-Context" Specialist (1M tokens). Ideal for massive document analysis.
-- GPT-4o: The "Interface" model. Optimized for real-time voice and low-latency chat.
+- **GPT-5**: The flagship general-purpose agent. Unifies high-speed interaction with deep reasoning. Uses internal \"Thinking\" for complex logic.
+- **GPT-4.1**: The \"High-Context\" Specialist (1M tokens). Ideal for massive document analysis and long research papers.
+- **GPT-4o**: The \"Interface\" model. Optimized for real-time voice, low-latency chat, and multimodal inputs.
 
 **Anthropic - Claude 4.5 Family**
 
-- Claude 4.5 Opus: The frontier model for "Computer Use" and autonomous coding.
-- Claude 4.5 Sonnet: The industry standard for "Vibe Coding" and nuanced writing.
-- Extended Thinking: A new native toggle allowing models to "pause and reason" for minutes on complex logic.
+- **Claude 4.5 Opus**: The frontier model for \"Computer Use\" and autonomous coding tasks.
+- **Claude 4.5 Sonnet**: The industry standard for nuanced writing, document analysis, and complex reasoning.
+- **Extended Thinking**: A native toggle allowing models to \"pause and reason\" for minutes on complex logic problems.
 
 **Google - Gemini 3 Series**
 
-- Gemini 3 Pro: The reasoning leader. Features "Deep Think" mode for PhD-level science/math.
-- Gemini 3 Flash: Now the default "fast" model, outperforming 2024-era flagship models.
-- Gemini Agent: A dedicated interface for multi-step tasks across Workspace (Gmail/Docs/Calendar).
+- **Gemini 3 Pro**: The reasoning leader. Features \"Deep Think\" mode for PhD-level science/math problems.
+- **Gemini 3 Flash**: The default \"fast\" model, outperforming 2024-era flagship models for quick tasks.
+- **Gemini Agent**: A dedicated interface for multi-step tasks across Google Workspace (Gmail/Docs/Calendar).
 
 ---
 
@@ -225,24 +225,27 @@ What did you discover in your model comparisons?
 
 ### Slide 11: Speed and Responsiveness
 
-**Factors:**
-- Model size (larger = slower)
+**Prediction-Based Models (GPT-4o, Claude Sonnet):**
+- Respond immediately (1-10 seconds)
+- Trade-off: Less deep reasoning
+- Best for: Quick answers, drafting, immediate feedback
+
+**Reasoning-Based Models (GPT-5, Deep Think):**
+- \"Thinking\" pause (20+ seconds for complex problems)
+- Trade-off: Slower but more reliable
+- Best for: Complex logic, math, critical analysis
+
+**Factors Affecting Speed:**
+- Model type (reasoning vs. prediction)
 - Server load
 - Response length
 - Complexity of task
 
-**Generally:**
-- Mini/small models: Fastest
-- Standard models: Moderate
-- Large models: Slower but more capable
-
-**Trade-off:** Speed vs. capability
-
 **Speaker Notes:**
-- Test real-time if possible
-- For most uses, all fast enough
-- Matters more for high-volume use
-- Can select smaller models when speed critical
+- The \"thinking\" pause in reasoning models is intentional
+- Users should expect and appreciate this delay for important decisions
+- Different tasks benefit from different speed profiles
+- Emphasize: Speed doesn't always mean better
 
 ---
 

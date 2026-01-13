@@ -1,15 +1,56 @@
+# Week 4: Advanced Prompting & Responsible Use - Verification & Clinical Ethics
+## Student Handout
+
 ---
 
-## 🛡️ Adversarial Thinking: The "Red Team" Mindset
-In 2026, AI models are so good at sounding human that we often lower our guard. **Adversarial Thinking** means assuming the AI is "hallucinating logic" until you prove otherwise.
+### Part A: Advanced Prompting Techniques (Foundation)
 
-### The Two Types of AI Errors:
+## Chain-of-Thought (CoT) Reasoning
+When you need reliable reasoning for complex tasks, explicitly ask the model to show its work:
+
+**Basic CoT Prompt:**
+```
+Let's think through this step-by-step:
+[Your question or problem]
+```
+
+**Example (Medical):**
+```
+Let's think through this step-by-step:
+A patient has eGFR 25 and K+ 5.8. Would Spironolactone be appropriate for HFrEF? 
+First, identify the indication. Then, check for contraindications.
+```
+
+## Self-Consistency Verification
+Generate multiple approaches and compare them:
+
+**Pattern:**
+```
+Approach 1: [Ask for solution method A]
+Approach 2: [Ask for solution method B]
+Compare: Where do these approaches agree or disagree?
+```
+
+## Verification Prompts
+**Always ask the model to check its own work:**
+```
+Check your response above. 
+- What assumptions did you make?
+- What could be wrong with this reasoning?
+- Are there alternative explanations?
+```
+
+---
+
+### Part B: Understanding AI Errors and Hallucinations
+
+## The Two Types of AI Errors:
 1. **Factual Hallucination:** Making up a lab value or a citation. (Rare in 2026 models).
 2. **Logical Hallucination:** Having the right data but reaching a dangerous conclusion. (Common in 2026 models).
 
 ---
 
-## 🛠️ Pattern: Chain-of-Verification (CoVe)
+### Part C: Chain-of-Verification (CoVe) Pattern
 Use this prompt pattern when accuracy is non-negotiable (e.g., patient education materials or research summaries):
 
 **Prompt 1:** "Based on this PDF, summarize the key findings."
@@ -18,11 +59,15 @@ Use this prompt pattern when accuracy is non-negotiable (e.g., patient education
 **Prompt 4:** "Provide a final summary using only the 'verified' claims."
 
 ---
+
+### Part D: Red Team Auditing & Adversarial Testing
+
+## 🛡️ Adversarial Thinking: The "Red Team" Mindset
+In 2026, AI models are so good at sounding human that we often lower our guard. **Adversarial Thinking** means assuming the AI is "hallucinating logic" until you prove otherwise.
+
 ## 🕵️ Seminar Activity: The Expanded "Red Team" Challenge
 **The Setup:** You are a Clinical Auditor. You have been handed an AI-generated summary of a complex patient case.
 **The Goal:** Use a 3-step pipeline to find the logical "hallucination" that a standard read-through would miss.
-
-### Step 1: The "Assertion" Extraction
 Don't ask if the summary is "good." Ask the AI to list its facts.
 > **Prompt:** "Read the provided summary. List every discrete clinical assertion made regarding medication dosages, diagnostic conclusions, and follow-up timelines. Format as a bulleted list."
 

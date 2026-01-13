@@ -3,6 +3,32 @@
 
 ---
 
+## 🎯 The Big Picture: From Tools to Systems
+
+Over the past five weeks, you've learned individual skills:
+- **Week 1-2:** Which tools exist and how they differ
+- **Week 3:** How to communicate effectively with them
+- **Week 4:** How to verify and audit their outputs
+- **Week 5:** How to ground AI in your own knowledge base
+
+**This week:** We integrate everything into a professional workflow system.
+
+---
+
+## 🔄 Orchestration: Multi-Tool Workflows
+
+**What is Orchestration?**
+Don't rely on one tool. Professional AI users chain tools together to eliminate errors and maximize reliability.
+
+**The Three-Stage Pipeline:**
+1. **Verification Stage (Scite/Consensus):** Use specialized tools to find *evidence* and check for retractions
+2. **Synthesis Stage (NotebookLM):** Use to *organize* your specific PDFs and notes
+3. **Drafting Stage (Custom GPT/Claude):** Use to *structure* the final output
+
+This prevents hallucinations by having each tool specialize in one task.
+
+---
+
 ## 🔬 Tool Spotlight: Scite.ai
 In 2026, Scite is the gold standard for **Verifiable Research**. It doesn't just predict text; it looks at the 1.4 billion citations in its database to see how the scientific community reacted to a paper.
 
