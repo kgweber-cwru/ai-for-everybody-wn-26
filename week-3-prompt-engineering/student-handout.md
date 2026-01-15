@@ -50,9 +50,45 @@ Create 3 "Production-Ready" prompts for your daily work.
 2. **A Creative Task:** (e.g., Drafting a department newsletter)
 3. **A Logic Task:** (e.g., Finding a flaw in a research methodology)
 
-**Part B: Comparison**
+**Part B: Test & Refine**
+* Run each prompt and evaluate the output
+* Document what works and what doesn't
+* Iterate at least once on each prompt
+* Save both the original and refined versions
+
+**Part C: Comparison (Bonus)**
 Run your "Logic Task" prompt through a **Predictive model** (GPT-4o) and a **Reasoning model** (GPT-5). 
 * Did the reasoning model catch something the predictive one missed?
 * How much "thinking time" did the reasoning model take?
+* Which model was better suited for your task?
+
+**Part D: Build Your Library**
+* Save your refined prompts in a reusable format
+* For each prompt, document: Purpose, Full text, What works well, Sample outputs
+* Bring your library to next week's session!
+
+---
+
+## 💡 Key Takeaways
+
+**The Five Pillars:**
+1. **ROLE** - Who is the AI?
+2. **CONTEXT** - What's the situation?
+3. **TASK** - What specific action?
+4. **CONSTRAINTS** - What are the boundaries?
+5. **THOUGHT PROCESS** - How should AI reason? ⭐
+
+**Best Practices:**
+- ROLE and CONSTRAINTS are your most powerful tools
+- Reasoning models need "permission" to think
+- Use delimiters (###, ---) for large documents
+- Iterate - first prompt is rarely your best prompt
+- Build a library for recurring tasks
+
+**Model-Specific Tips:**
+- **GPT-5:** Add "Take your time to reason through this"
+- **GPT-4o:** Add "Provide a concise answer"
+- **Claude:** Add "Consider multiple perspectives"
+- **Gemini:** Add "Reference specific sections of the provided document"
 
 ---

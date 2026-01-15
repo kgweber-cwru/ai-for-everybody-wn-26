@@ -469,18 +469,6 @@ Please:
 - Official documentation
 - Continued learning opportunities
 
----
-
-## Contact
-
-**For questions about these materials:**
-[Your contact information]
-
-**For ongoing support:**
-[Community channel/forum]
-
-**For advanced workshops:**
-[Advanced series information]
 
 ---
 

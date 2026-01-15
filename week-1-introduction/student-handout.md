@@ -353,4 +353,4 @@ Use this space to jot down notes during the session:
 
 ---
 
-*Questions? Bring them to next week's session or email [your contact]*
+*Questions? Bring them to next week's session or email kate-weber@case.edu*

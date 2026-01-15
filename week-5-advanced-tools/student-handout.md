@@ -3,8 +3,19 @@
 
 ---
 
-## 🧠 The Concept: Curation over Prompting
+## 🧠 The Concept: Grounded AI (RAG - Retrieval-Augmented Generation)
 In the first four weeks, we focused on how to *talk* to AI. This week, we focus on what the AI *knows*. In 2026, the most effective medical AI is "Grounded"—it is restricted to using only the sources you provide.
+
+**What is RAG?**
+- **Retrieval:** AI searches through YOUR documents
+- **Augmented:** Uses that content to enhance its response
+- **Generation:** Creates answers ONLY from your sources
+
+**Why This Matters:**
+- Prevents hallucinations (no making up facts)
+- Ensures citations to specific sources
+- Keeps AI answers within your knowledge domain
+- Creates audit trail for verification
 
 ---
 
@@ -24,8 +35,22 @@ Custom GPTs are best for **repetitive workflows**. If you find yourself pasting 
 **The Architecture of a GPT:**
 1. **Instructions:** The "System Prompt" that defines its personality and limits.
 2. **Knowledge Base:** Files the GPT "knows" (e.g., your lab’s specific SOPs).
-3. **Capabilities:** Can it browse the web? Can it generate images (DALL-E 3)?
+3. **Capabilities:** Can it browse the web? Can it generate images (DALL-E 3)?4. **Actions (Advanced):** Can connect to external tools via API
 
+**NotebookLM vs Custom GPT - When to Use Which?**
+
+| Feature | NotebookLM | Custom GPT |
+|---------|------------|------------|
+| **Best For** | Research & analysis | Repetitive workflows |
+| **Source Limit** | 50 sources, 500k words each | Knowledge base less flexible |
+| **Citations** | Excellent (page-level) | Basic (file-level) |
+| **Audio Overviews** | Yes (podcast generation) | No |
+| **Custom Instructions** | Limited | Fully customizable |
+| **Web Access** | No | Optional |
+| **Sharing** | Link sharing | Public or private |
+| **Cost** | Free | Free tier + paid options |
+
+**Pro Tip:** Use NotebookLM for discovery and analysis, then build a Custom GPT for recurring tasks based on what you learned.
 ---
 
 ## 🧪 Seminar Activity: Building the "Department Brain"

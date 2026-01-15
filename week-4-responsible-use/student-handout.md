@@ -94,7 +94,7 @@ This is the true Red Team moment. Force the AI to act as its own critic.
 ---
 
 ## ⚖️ Ethics & Privacy Checklist
-- [ ] **PHI Check:** Am I using an institutional-grade tool (e.g., ai.case.edu)? 
+- [ ] **PHI Check:** Am I using an institutional-grade tool? 
 - [ ] **Bias Check:** Did the AI assume a "standard" patient profile, or did it account for this specific patient's unique background?
 - [ ] **Transparency Check:** Can I explain to a colleague *how* the AI reached this conclusion?
 
