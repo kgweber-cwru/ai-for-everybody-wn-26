@@ -1,7 +1,6 @@
 # Week 3: Prompt Engineering Fundamentals
 ## Instructor Notes (Convert to Slides)
 
----
 
 ### Slide 1: Title & Welcome Back
 **Title:** Prompt Engineering Fundamentals  
@@ -305,39 +304,65 @@ Explain [your complex concept].
 
 **Goal:** Prevent AI from giving "creative" medical advice
 
-**Engineered Prompt:**
+**Two Ways to Implement This:**
+
+**Option A: Copy-Paste Guideline Text (Simple, Works Everywhere)**
 ```
 ROLE: You are a Clinical Guidelines Specialist.
 
 CONTEXT: I need to create a treatment summary for physician reference.
 
-TASK: Summarize treatment recommendations from the provided guideline.
+TASK: Summarize treatment recommendations from the provided guideline text below.
 
 CONSTRAINTS:
-- Use the [NCCN_GUIDELINES] block as the EXCLUSIVE source
-- Provide parenthetical citation (section/page) for every recommendation
-- If guideline doesn't address a symptom, state: "Guideline does not address  
-  this symptom" - do NOT infer solutions
+- Use ONLY the guideline text provided below (between the ### markers)
+- Provide parenthetical citation (section/subsection) for every recommendation
+- If guideline doesn't address a symptom, state: "Guideline does not address this symptom" 
+- Do NOT infer solutions beyond what's explicitly stated
 - Maximum 300 words
 
 THOUGHT PROCESS: For each recommendation:
-1. Find exact guideline text
-2. Note the section/page
-3. Only include if explicitly stated
+1. Find exact guideline text that supports it
+2. Note the section heading and page number
+3. Copy key phrases directly from guideline
+4. Only include if explicitly stated, not inferred
+
+### ACP_COLORECTAL_SCREENING_GUIDELINES ###
+[Copy and paste the relevant section of the guideline here - e.g., screening guidelines
+from ACP]
+### END_GUIDELINES ###
 ```
+
+**How It Works in Practice:**
+1. Download or copy guideline section (from ACC.org, NCCN.org, ADA.org, etc.)
+2. Paste it into the prompt between the ### markers
+3. The AI can now reference specific pages/sections with page numbers visible
+4. AI generates citations like: "See Table 3, page 14" (from actual text in prompt)
+
+**Option B: Upload to NotebookLM or Custom GPT (Week 5)**
+If you'll use this guideline repeatedly:
+- Upload PDF to NotebookLM (covers all pages, AI finds citations automatically)
+- Build Custom GPT with guideline as knowledge file
+- Ask questions without copying/pasting each time
+- AI maintains accurate page citations across all uses
 
 **Why This Works:**
 - Role sets clinical mindset
-- Context clarifies stakes
+- Context clarifies stakes  
 - Task is specific action
-- Constraints prevent creativity (good here!)
+- CONSTRAINTS prevent creativity - this is crucial for clinical content
 - Thought process creates audit trail
+- Explicit sourcing prevents hallucinated recommendations
 
 **Speaker Notes:**
 - This is professional-grade medical prompting
-- The constraints create safety
+- The constraints create safety by preventing inference
+- Option A (copy-paste) is perfect for learning and occasional use
+- Option B (NotebookLM) is better for recurring tasks
 - Show output example if time permits
-- This connects to Week 4's verification techniques
+- Emphasize the [SECTION/PAGE] requirement - this forces AI to ground answers
+- This directly connects to Week 4's verification (you can verify citations!)
+- Practical demo: Show actual guideline section copied into prompt, walk through one example recommendation with page citation
 
 ---
 

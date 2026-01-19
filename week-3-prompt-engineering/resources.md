@@ -9,7 +9,7 @@
 - **ChatGPT:** [chat.openai.com](https://chat.openai.com) - Free tier available, Plus for GPT-5
 - **Claude:** [claude.ai](https://claude.ai) - Free tier available
 - **Gemini:** [gemini.google.com](https://gemini.google.com) - Free access to Gemini 3
-- **Institutional AI (CWRU):** [ai.case.edu](https://ai.case.edu) - Privacy-compliant for practice
+- **Institutional AI (CWRU):** [ai.case.edu](https://ai.case.edu) - Free for CWRU users, prompts not used for training
 
 ### Prompt Engineering Resources
 - **OpenAI Prompt Engineering Guide:** [platform.openai.com/docs/guides/prompt-engineering](https://platform.openai.com/docs/guides/prompt-engineering)
@@ -110,6 +110,38 @@ statistical methods. Then, check for adequate power calculation. Next, assess
 randomization and blinding procedures. Then, examine confounding variable control. 
 Finally, evaluate whether conclusions are supported by the analysis.
 ```
+
+### Template 5: Guidelines-Anchored Clinical Summary (Copy-Paste)
+```
+ROLE: You are a Clinical Guidelines Specialist.
+
+CONTEXT: I need to create a treatment summary for physician reference.
+
+TASK: Summarize treatment recommendations from the provided guideline text below.
+
+CONSTRAINTS:
+- Use ONLY the guideline text provided below (between the ### markers)
+- Provide parenthetical citation (section/page) for every recommendation
+- If guideline doesn't address a symptom, state: "Guideline does not address this symptom"
+- Do NOT infer solutions beyond what's explicitly stated
+- Maximum 300 words
+
+THOUGHT PROCESS: For each recommendation:
+1. Find exact guideline text that supports it
+2. Note the section heading and page number
+3. Copy key phrases directly from the guideline
+4. Only include if explicitly stated, not inferred
+
+### NCCN_GUIDELINES ###
+[Paste the relevant guideline section here (e.g., treatment section from NCCN Breast Cancer Guidelines)]
+### END_GUIDELINES ###
+```
+
+**How to use:**
+- Download or copy the guideline section (ACC.org, NCCN.org, ADA.org, etc.)
+- Paste it between the ### markers so page/section info is visible
+- The AI will cite the page/section you pasted (no hallucinated citations)
+- For repeated use, consider uploading the PDF to NotebookLM (Week 5)
 
 ---
 
@@ -436,7 +468,6 @@ Based ONLY on the clinical_context and guidelines above, recommend treatment.
 ## ✅ Week 3 Checklist
 
 Before next week, you should have:
-- [ ] Created accounts on ChatGPT, Claude, and Gemini (if not already)
 - [ ] Built 3 prompts using the Five Pillars framework
 - [ ] Tested each prompt and iterated at least once
 - [ ] Started a prompt library document
@@ -452,10 +483,3 @@ Before next week, you should have:
 - Claude Support: [support.anthropic.com](https://support.anthropic.com)
 - Gemini Support: [support.google.com/gemini](https://support.google.com/gemini)
 
-**Institutional Resources:**
-- CWRU AI Support: [Contact your IT department]
-- HIPAA-Compliant AI: Use ONLY institutionally-approved compliant tools
-
-
-
-*These resources supplement Week 3 instructor notes and student handout. Use them as reference materials throughout the series.*
