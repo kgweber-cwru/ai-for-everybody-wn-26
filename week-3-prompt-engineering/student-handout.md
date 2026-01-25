@@ -57,7 +57,7 @@ Create 3 "Production-Ready" prompts for your daily work.
 * Save both the original and refined versions
 
 **Part C: Comparison (Bonus)**
-Run your "Logic Task" prompt through a **Predictive model** (GPT-4o) and a **Reasoning model** (GPT-5). 
+Run your "Logic Task" prompt through a **Predictive model** (GPT-4o) and a **Reasoning model** (GPT-5 or Gemini Thinking). 
 * Did the reasoning model catch something the predictive one missed?
 * How much "thinking time" did the reasoning model take?
 * Which model was better suited for your task?
