@@ -162,33 +162,7 @@
 
 ---
 
-### Slide 7: Scite.ai Demo Setup
-**Instructor Preparation:**
 
-**Choose a Research Question:**
-- Example: "What is the current consensus on GLP-1 agonists for neuroprotection?"
-- Or: "Are there disputed findings on the use of metformin in gestational diabetes?"
-
-**What You'll Demonstrate:**
-1. Ask question in Scite Assistant
-2. Show "Smart Citations" view
-3. Identify supporting vs disputing papers
-4. Show consensus meter
-5. Export citation list
-
-**Key Teaching Points:**
-- Notice the citation context snippets
-- See how Scite identifies methodology disputes
-- Observe the speed (parallel searching)
-- Emphasize the audit trail
-
-**Speaker Notes:**
-- Have this prepared and tested
-- Know your question and expected results
-- Be ready to explain consensus meter
-- Show both supported and disputed examples
-
----
 
 ### Slide 8: Live Demo - Stage 1 (Verification)
 **Instructor Activity: Scite.ai in Action**
@@ -274,7 +248,7 @@ Only use information from the uploaded papers. Cite page numbers.
 ```
 ROLE: You are a clinical research summarizer
 
-CONTEXT: I need to brief my department on GLP-1 neuroprotection evidence
+CONTEXT: I need to brief my department on Metformin and gestational diabetes
 
 TASK: Write a 250-word summary suitable for clinicians
 
@@ -312,7 +286,7 @@ disagreements, finally highlight clinical implications
 **Summary of What We Just Did:**
 
 ```
-QUESTION: What's the consensus on GLP-1 neuroprotection?
+QUESTION: Are there disputed findings on the use of metformin in gestational diabetes? What is the consensus?
     ↓
 STAGE 1 - VERIFICATION (Scite.ai)
 → Found 47 papers, 12 high-quality RCTs
@@ -392,30 +366,26 @@ FINAL OUTPUT: Department briefing ready for use
 
 **2026 Clinical Agents:**
 
+
 **Chart Hero (Penn Medicine)**
-- Analyzes patient records automatically
-- Suggests diagnostic pathways with source citations
-- Flags potential drug interactions
-- One-click access to evidence in EHR
+- Chat-based AI that synthesizes patient records within the EHR
+- Suggests courses of action with outputs tied to source data
+- One-click access to relevant patient information
 
 **Ambient Scribes (Sunoh.ai, Abridge)**
-- 320% adoption increase in 2025
-- Converts patient conversations to structured notes
-- Real-time documentation during visits
-- Human physician approves/edits before finalizing
+- Converts patient conversations to structured notes in real time
+- Physician reviews and approves all output before finalizing
+- Fastest-adopted generative AI tool in healthcare
 
-**Clinical Decision Support (Epic integration)**
-- GPT-5 embedded in EHR workflows
-- Proactive care suggestions based on guidelines
-- Transparent citation to source guidelines
-- Physician retains final decision authority
+**Clinical Decision Support (Epic + GPT-4)**
+- Evidence-based alerts and recommendations embedded in EHR workflows
+- Physician retains final decision authority; all AI outputs are drafts
 
 **Speaker Notes:**
-- This is the future already happening
-- Agents = next evolution beyond chat
-- Critical difference: Transparent sourcing and human oversight
-- Still experimental but growing fast
-- Participants should be aware even if not using yet
+- These tools are moving from pilots to mainstream use at major health systems
+- Key principles: human-in-the-loop review, outputs sourced to underlying data
+- Adoption growing fast but many applications still in early deployment
+
 
 ---
 
